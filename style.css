@@ -16,7 +16,8 @@ h2 {
 }
 
 section {
-    margin-bottom: 100px;
+    height: 500px;
+    padding-bottom: 150px;
 }
 
 .flexible-container {
@@ -24,8 +25,10 @@ section {
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 5%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img {
@@ -56,12 +59,29 @@ section {
 .exprience-item {
     width: 40%;
     margin-left: 5%;
-    padding: 20px;
+    padding: 25px;
     box-shadow: 5px 5px 10px gray;
 }
 
 .experience-area {
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left center;
+
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
